@@ -1,0 +1,270 @@
+body{
+    background-color:rgb(246, 247, 249);
+}
+
+.contener{
+    padding: 0 10%;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.sand {
+    width: 20%;
+    margin-top: 1em;
+}
+
+nav ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.liennav {
+    width: 60%;
+}
+
+.empbtn {
+    padding-top: 0.9rem;
+}
+.buttonnav {
+    width: 20%;
+    border-color: rgb(180, 235, 232);
+    background-color: rgb(180, 235, 232);
+    color: black;
+
+    
+}
+
+.buttonnav2{
+    border-color: rgb(1, 1, 2);
+    color: rgb(246, 247, 249);
+    font-weight: bolder;
+    background-color: blue;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 150px;
+}
+
+/* pour la partie section */
+.sec1{
+    text-align: center;
+    
+}
+
+.titre{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.sec1 p{
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tet{
+    font-size: 25px;
+
+}
+
+.sec1 img{
+    margin: 0% auto;
+}
+
+
+/* partie de la éeme section */
+
+
+.sec2{
+    background-color:rgb(254, 254, 254);
+    padding: 6% 10%;
+
+}
+
+.sec2part1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.progressbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titre2{
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* pour no progesse bar */
+
+.bar{
+    width: 50%;
+}
+
+.inner1 {
+    height: 3px;
+    background-color:  rgb(0, 81, 255);
+
+}
+
+.inner2 {
+    height: 3px;
+    background-color:  rgb(15, 114, 2);
+
+}
+
+.inner3 {
+    height: 3px;
+    background-color:  rgb(236, 195, 11);
+
+}
+
+.inner4 {
+    height: 3px;
+    background-color:  rgb(247, 18, 18);
+
+}
+
+/* Les cartes de la sec2 */
+.cardcontainer{
+    display: flex;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.card{
+    padding: 0 3%;
+}
+
+/* section 3 1er partie */
+
+.sec3contener{
+    padding: 10% 10%;
+    background: rgb(246, 247, 249);
+}
+
+/* pour image */
+.sec3par1 img{
+    margin: 5% 0;
+}
+
+.sec3par1{
+    display: flex; 
+}
+
+.pop{
+    margin-top: 10%;
+}
+
+.blue{
+    font-weight: bold;
+    font-size: medium;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.TI1{
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.ti{
+    font-weight: bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.logosec3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* Section 4 */
+
+.sec4 {
+    background:rgb(254, 254, 254);
+}
+
+.sec4text {
+   padding: 6rem 0;
+   width: 35%;
+}
+
+.buttonsec4{
+    border-color: rgb(1, 1, 2);
+    color:inherit;
+    font-weight: bolder;
+    background-color: blue;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 25%;
+    margin-top: 1rem;
+}
+
+.sec5 {
+    background: rgb(246, 247, 249);
+    padding-top: 5rem;
+}
+
+.sec5textimg {
+    width: 50%;
+}
+
+.logosec5 {
+    height: 1.7rem;
+    width: 5.5rem;
+    margin: 5rem 0;
+}
+
+.sec6 {
+    background: rgb(254, 254, 254);
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+.logosec6 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.petitlogo {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin: auto 3rem auto 0;
+}
+
+
+
+
+@media (max-width: 700px) {
+    body {
+        background-color: red;
+    }
+}
